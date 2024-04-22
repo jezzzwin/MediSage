@@ -1,0 +1,100 @@
+.zero{
+    width:100%;
+    height: 90vh;
+    position: relative;
+}
+
+.zero-mid{
+    width:100%;
+    height: 70vh;
+    position: relative;   
+}
+.zero-mid h1{
+    font-size: 5rem;
+    padding-top: 4rem !important;
+    font-weight: 800;
+    background: #D8E9A8;
+}
+
+img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.zero-text{
+    position:absolute;
+    transform: translate(-50%,-70%);
+    top:150%;
+    left:70%;
+    width: 50%;
+    text-align: right;
+}
+.zero-text:hover{
+    position:absolute;
+    transition: 1s ease-in-out;
+    transform: translate(-50%,-70%);
+    top:140%;
+    left:70%;
+    width: 50%;
+    text-align: right;
+}
+
+.zero-text h1{
+    font-size: 3.8rem;
+    font-weight: 800;
+    background: #191A19;
+    text-align: right;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.zero-text p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 0 2rem 0;
+}
+
+.zero-text .show{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #6d9400 0%, #bbff00 40%,#bbff00 59%, #6d9400 100%);
+    padding: 0.8rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 0 0 15px #191A19;
+    color:black;
+}
+.zero-text .show:hover{
+    background-image: linear-gradient(to right, #bbff00 0%, #bbff00 50%, #6d9400 100%);
+}
+
+@media screen and (max-width:700px){
+    .zero-text{
+        width: 100%;
+        left:40%;
+    }
+    .zero-text:hover{
+        width: 100%;
+        left:40%;
+    }
+    .zero-text h1{
+        padding: 10px 20px;
+    }
+    .zero-text p{
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
+    .zero-text .show{
+        padding: 0.6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+        box-shadow: 0 0 15px #191A19;
+        background-image: linear-gradient(to right, #6d9400 0%, #bbff00 40%,#bbff00 59%, #6d9400 100%); ;
+    }
+    .zero-text .show:hover{
+        background-image: linear-gradient(to right, #bbff00 0%, #bbff00 50%, #6d9400 100%);
+    }
+    
+}

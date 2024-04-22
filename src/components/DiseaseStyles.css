@@ -1,0 +1,62 @@
+.diseasecard{
+    color: #191A19;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    background:url("../assets/predict.jpg");
+    background-size: cover;
+}
+
+
+.d-card{
+    width:25%;
+    text-align: start;
+    background-color: rgba(255, 255, 255, 0.487);
+    backdrop-filter: blur(10px);
+    box-shadow: -1px -1px 9px #324133a2,3px 3px 7px rgba(55, 65, 59, 0.671);
+    border: #191A19;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 1rem 0.8rem;
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+    text-decoration: none;
+    color: #070707;
+}
+.d-card:hover{
+    width:25%;
+    text-align: start;
+    background-color: #191A19;
+    box-shadow: 0 5px 25px 2px #191A19;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 1rem 0.8rem;
+    margin-bottom: 4rem;
+    text-decoration: none;
+    color: #D8E9A8;
+}
+
+.d-image{
+    height:250px;
+    overflow: hidden;
+    border-radius: 7px; 
+}
+
+.d-image img{
+    width:100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    border-radius: 7px;
+}
+
+.d-image:hover img{
+    transform: scale(1.3);
+}
+
+.d-card h4{
+    font-size: 1.2rem;
+    padding: 0.9rem 0.2rem 0;
+    text-align: center;
+}
+

@@ -1,0 +1,100 @@
+.hero{
+    width:100%;
+    height: 90vh;
+    position: relative;
+}
+
+.hero-mid{
+    width:100%;
+    height: 70vh;
+    position: relative;   
+}
+.hero-mid h1{
+    font-size: 5rem;
+    padding-top: 4rem !important;
+    font-weight: 800;
+    background: #D8E9A8;
+}
+
+img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text{
+    position: absolute;
+    top:65%;
+    left:30%;
+    transform: translate(-50%,-70%);
+    width: 50%;
+    text-align: left;
+}
+.hero-text:hover{
+    position:absolute;
+    transition: 1s ease-in-out;
+    transform: translate(-50%,-70%);
+    top:55%;
+    left:30%;
+    width: 50%;
+    text-align: left;
+}
+
+.hero-text h1{
+    font-size: 4rem;
+    font-weight: 800;
+    background: #D8E9A8;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+.hero-text p{
+    font-size: 1.1rem;
+    color: white;
+    padding: 0.5rem 0 2rem 0;
+    animation: fadeIn 10s;
+}
+
+.hero-text .show{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #6d9400 0%, #bbff00 40%,#bbff00 59%, #6d9400 100%);
+    padding: 0.8rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 0 0 15px #191A19;
+    color:black;
+}
+.hero-text .show:hover{
+    background-image: linear-gradient(to right, #bbff00 0%, #bbff00 50%, #6d9400 100%);
+}
+
+@media screen and (max-width:700px){
+    .hero-text{
+        width: 100%;
+        left:60%;
+    }
+    .hero-text:hover{
+        width: 100%;
+        left:60%;
+    }
+    .hero-text h1{
+        padding: 10px 20px;
+    }
+    .hero-text p{
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
+    .hero-text .show{
+        padding: 0.6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+        box-shadow: 0 0 15px #191A19;
+        background-image: linear-gradient(to right, #6d9400 0%, #bbff00 40%,#bbff00 59%, #6d9400 100%); ;
+    }
+    .hero-text .show:hover{
+        background-image: linear-gradient(to right, #bbff00 0%, #bbff00 50%, #6d9400 100%);
+    }
+    
+}

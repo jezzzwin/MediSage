@@ -1,0 +1,99 @@
+.container1{
+    background: url("../assets/signup.png");
+    background-size: cover;
+    background-position: center;
+    align-items:center;
+    justify-content: left;
+    padding-right: 10%;
+    height:100vh;
+    display: grid;
+    place-items: center;
+}
+.signup{
+    width: 330px; 
+    height: 500px;
+    margin-left: 5rem;
+    padding: 20px 30px;
+    box-shadow: -3px -3px 9px #82a885a2,3px 3px 7px rgba(99, 150, 118, 0.671);
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.13);
+    backdrop-filter: blur(10px);
+    margin-bottom: 20px;
+    align-items:center ;
+}
+.head{
+    color: white;
+}
+.signup .fields{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+}
+.fields input{
+    height: 100%;
+  width: 100%;
+  padding-left: 70px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  color: #e0d2d2;
+  border: 1px solid rgba(255, 255, 255, 0.438);
+  border-radius: 8px;
+  background: rgba(105, 105, 105, 0);
+}
+.fields input::placeholder{
+    color: #e0d2d2a6;
+}
+.fields:nth-child(2){
+    margin-top: 20px;
+  }
+.fields span{
+    position: absolute;
+    line-height: 70px;
+    width: 80px;
+    color: #ffffff;
+  }  
+
+.signup  button{
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    color: rgb(238, 226, 226);
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid rgba(255, 255, 255, 0.438);
+    border-radius: 8px;
+    background: rgba(105, 105, 105, 0);
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+   
+  }  
+  .signup .or{
+    color: rgba(255, 255, 255, 0.733);
+    margin-top: 9px;
+  }
+
+  .icon-button{
+    margin-top: 15px;
+  }
+  .icon-button span{
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: rgba(244, 247, 250, 0.795);
+    border-radius: 5px;
+    line-height: 30px;
+    background: rgba(255, 255, 255, 0.164);
+    backdrop-filter: blur(10px);
+  }
+  .icon-button span.facebook{
+    margin-right: 17px;
+  }
+  .signup button:hover,
+  .icon-button span:hover{
+    background-color: #0037ff8c;
+  }
